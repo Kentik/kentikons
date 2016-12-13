@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'kentikons';
   src:
-    url('fonts/kentikons.ttf?l0vckm') format('truetype'),
-    url('fonts/kentikons.woff?l0vckm') format('woff'),
-    url('fonts/kentikons.svg?l0vckm#kentikons') format('svg');
+    url('fonts/kentikons.ttf?9zfezi') format('truetype'),
+    url('fonts/kentikons.woff?9zfezi') format('woff'),
+    url('fonts/kentikons.svg?9zfezi#kentikons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,13 +23,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.kentikons-uniE608:before {
+.kentikons-sankey:before {
+  content: "\e907";
+}
+.kentikons-intersection:before {
   content: "\e608";
 }
-.kentikons-uniE60F:before {
+.kentikons-flow-dots:before {
   content: "\e60f";
 }
-.kentikons-uniE611:before {
+.kentikons-flow-random:before {
   content: "\e611";
 }
 .kentikons-dot-plot:before {
@@ -44,7 +47,7 @@
 .kentikons-table:before {
   content: "\e667";
 }
-.kentikons-uniE66D:before {
+.kentikons-dot-corner:before {
   content: "\e66d";
 }
 .kentikons-trend:before {
@@ -62,25 +65,25 @@
 .kentikons-uniE6D2:before {
   content: "\e6d2";
 }
-.kentikons-uniE6D3:before {
+.kentikons-flow-center:before {
   content: "\e6d3";
 }
-.kentikons-uniE6D4:before {
+.kentikons-dots-triangle:before {
   content: "\e6d4";
 }
-.kentikons-uniE6F3:before {
+.kentikons-matrix:before {
   content: "\e6f3";
 }
-.kentikons-uniE6F4:before {
+.kentikons-gant:before {
   content: "\e6f4";
 }
-.kentikons-uniE70C:before {
+.kentikons-vertical-bar:before {
   content: "\e70c";
 }
 .kentikons-line:before {
   content: "\e70f";
 }
-.kentikons-uniE71C:before {
+.kentikons-dummy-bars:before {
   content: "\e71c";
 }
 .kentikons-stacked-bar:before {
@@ -89,10 +92,10 @@
 .kentikons-line-bars:before {
   content: "\e727";
 }
-.kentikons-uniE736:before {
+.kentikons-flow-enter:before {
   content: "\e736";
 }
-.kentikons-uniE738:before {
+.kentikons-tables:before {
   content: "\e738";
 }
 .kentikons-scatter:before {

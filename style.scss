@@ -1,0 +1,198 @@
+@import "variables";
+
+@font-face {
+  font-family: 'kentikons';
+  src:
+    url('#{$icomoon-font-path}/kentikons.ttf?9zfezi') format('truetype'),
+    url('#{$icomoon-font-path}/kentikons.woff?9zfezi') format('woff'),
+    url('#{$icomoon-font-path}/kentikons.svg?9zfezi#kentikons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="kentikons-"], [class*=" kentikons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kentikons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kentikons-sankey {
+  &:before {
+    content: $kentikons-sankey;
+  }
+}
+.kentikons-intersection {
+  &:before {
+    content: $kentikons-intersection;
+  }
+}
+.kentikons-flow-dots {
+  &:before {
+    content: $kentikons-flow-dots;
+  }
+}
+.kentikons-flow-random {
+  &:before {
+    content: $kentikons-flow-random;
+  }
+}
+.kentikons-dot-plot {
+  &:before {
+    content: $kentikons-dot-plot;
+  }
+}
+.kentikons-area-plot {
+  &:before {
+    content: $kentikons-area-plot;
+  }
+}
+.kentikons-comparison {
+  &:before {
+    content: $kentikons-comparison;
+  }
+}
+.kentikons-table {
+  &:before {
+    content: $kentikons-table;
+  }
+}
+.kentikons-dot-corner {
+  &:before {
+    content: $kentikons-dot-corner;
+  }
+}
+.kentikons-trend {
+  &:before {
+    content: $kentikons-trend;
+  }
+}
+.kentikons-pie {
+  &:before {
+    content: $kentikons-pie;
+  }
+}
+.kentikons-stacked-area {
+  &:before {
+    content: $kentikons-stacked-area;
+  }
+}
+.kentikons-donut {
+  &:before {
+    content: $kentikons-donut;
+  }
+}
+.kentikons-uniE6D2 {
+  &:before {
+    content: $kentikons-uniE6D2;
+  }
+}
+.kentikons-flow-center {
+  &:before {
+    content: $kentikons-flow-center;
+  }
+}
+.kentikons-dots-triangle {
+  &:before {
+    content: $kentikons-dots-triangle;
+  }
+}
+.kentikons-matrix {
+  &:before {
+    content: $kentikons-matrix;
+  }
+}
+.kentikons-gant {
+  &:before {
+    content: $kentikons-gant;
+  }
+}
+.kentikons-vertical-bar {
+  &:before {
+    content: $kentikons-vertical-bar;
+  }
+}
+.kentikons-line {
+  &:before {
+    content: $kentikons-line;
+  }
+}
+.kentikons-dummy-bars {
+  &:before {
+    content: $kentikons-dummy-bars;
+  }
+}
+.kentikons-stacked-bar {
+  &:before {
+    content: $kentikons-stacked-bar;
+  }
+}
+.kentikons-line-bars {
+  &:before {
+    content: $kentikons-line-bars;
+  }
+}
+.kentikons-flow-enter {
+  &:before {
+    content: $kentikons-flow-enter;
+  }
+}
+.kentikons-tables {
+  &:before {
+    content: $kentikons-tables;
+  }
+}
+.kentikons-scatter {
+  &:before {
+    content: $kentikons-scatter;
+  }
+}
+.kentikons-scatter-plot {
+  &:before {
+    content: $kentikons-scatter-plot;
+  }
+}
+.kentikons-dev_host {
+  &:before {
+    content: $kentikons-dev_host;
+  }
+}
+.kentikons-dev_port {
+  &:before {
+    content: $kentikons-dev_port;
+  }
+}
+.kentikons-dev_router {
+  &:before {
+    content: $kentikons-dev_router;
+  }
+}
+.kentikons-dev_switch {
+  &:before {
+    content: $kentikons-dev_switch;
+  }
+}
+.kentikons-icon_error {
+  &:before {
+    content: $kentikons-icon_error;
+  }
+}
+.kentikons-icon_ok {
+  &:before {
+    content: $kentikons-icon_ok;
+  }
+}
+.kentikons-icon_warning {
+  &:before {
+    content: $kentikons-icon_warning;
+  }
+}
+
