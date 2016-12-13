@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'kentikons';
+  src:
+    url('fonts/kentikons.ttf?l0vckm') format('truetype'),
+    url('fonts/kentikons.woff?l0vckm') format('woff'),
+    url('fonts/kentikons.svg?l0vckm#kentikons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="kentikons-"], [class*=" kentikons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kentikons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kentikons-uniE608:before {
+  content: "\e608";
+}
+.kentikons-uniE60F:before {
+  content: "\e60f";
+}
+.kentikons-uniE611:before {
+  content: "\e611";
+}
+.kentikons-dot-plot:before {
+  content: "\e612";
+}
+.kentikons-area-plot:before {
+  content: "\e614";
+}
+.kentikons-comparison:before {
+  content: "\e637";
+}
+.kentikons-table:before {
+  content: "\e667";
+}
+.kentikons-uniE66D:before {
+  content: "\e66d";
+}
+.kentikons-trend:before {
+  content: "\e67e";
+}
+.kentikons-pie:before {
+  content: "\e684";
+}
+.kentikons-stacked-area:before {
+  content: "\e6cd";
+}
+.kentikons-donut:before {
+  content: "\e6ce";
+}
+.kentikons-uniE6D2:before {
+  content: "\e6d2";
+}
+.kentikons-uniE6D3:before {
+  content: "\e6d3";
+}
+.kentikons-uniE6D4:before {
+  content: "\e6d4";
+}
+.kentikons-uniE6F3:before {
+  content: "\e6f3";
+}
+.kentikons-uniE6F4:before {
+  content: "\e6f4";
+}
+.kentikons-uniE70C:before {
+  content: "\e70c";
+}
+.kentikons-line:before {
+  content: "\e70f";
+}
+.kentikons-uniE71C:before {
+  content: "\e71c";
+}
+.kentikons-stacked-bar:before {
+  content: "\e722";
+}
+.kentikons-line-bars:before {
+  content: "\e727";
+}
+.kentikons-uniE736:before {
+  content: "\e736";
+}
+.kentikons-uniE738:before {
+  content: "\e738";
+}
+.kentikons-scatter:before {
+  content: "\e73e";
+}
+.kentikons-scatter-plot:before {
+  content: "\e758";
+}
+.kentikons-dev_host:before {
+  content: "\e900";
+}
+.kentikons-dev_port:before {
+  content: "\e901";
+}
+.kentikons-dev_router:before {
+  content: "\e902";
+}
+.kentikons-dev_switch:before {
+  content: "\e903";
+}
+.kentikons-icon_error:before {
+  content: "\e904";
+}
+.kentikons-icon_ok:before {
+  content: "\e905";
+}
+.kentikons-icon_warning:before {
+  content: "\e906";
+}
+
