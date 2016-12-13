@@ -1,4 +1,4 @@
-# kentikons
+# Kentikons :boom:
 
 ## Editing in Icomoon
 - Load up the Icomoon app: https://icomoon.io/app/
