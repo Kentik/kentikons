@@ -1,0 +1,24 @@
+{
+  "name": "kentikons",
+  "version": "1.0.0",
+  "description": "Kentik icon font",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kentik/kentikons.git"
+  },
+  "keywords": [
+    "icon",
+    "font",
+    "kentik"
+  ],
+  "author": "Kentik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kentik/kentikons/issues"
+  },
+  "homepage": "https://github.com/Kentik/kentikons#readme"
+}

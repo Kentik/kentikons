@@ -1,193 +1,38 @@
-@import "variables";
+$icomoon-font-path: "fonts" !default;
 
-@font-face {
-  font-family: 'kentikons';
-  src:
-    url('#{$icomoon-font-path}/kentikons.ttf?l0vckm') format('truetype'),
-    url('#{$icomoon-font-path}/kentikons.woff?l0vckm') format('woff'),
-    url('#{$icomoon-font-path}/kentikons.svg?l0vckm#kentikons') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-[class^="kentikons-"], [class*=" kentikons-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'kentikons' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.kentikons-uniE608 {
-  &:before {
-    content: $kentikons-uniE608;
-  }
-}
-.kentikons-uniE60F {
-  &:before {
-    content: $kentikons-uniE60F;
-  }
-}
-.kentikons-uniE611 {
-  &:before {
-    content: $kentikons-uniE611;
-  }
-}
-.kentikons-dot-plot {
-  &:before {
-    content: $kentikons-dot-plot;
-  }
-}
-.kentikons-area-plot {
-  &:before {
-    content: $kentikons-area-plot;
-  }
-}
-.kentikons-comparison {
-  &:before {
-    content: $kentikons-comparison;
-  }
-}
-.kentikons-table {
-  &:before {
-    content: $kentikons-table;
-  }
-}
-.kentikons-uniE66D {
-  &:before {
-    content: $kentikons-uniE66D;
-  }
-}
-.kentikons-trend {
-  &:before {
-    content: $kentikons-trend;
-  }
-}
-.kentikons-pie {
-  &:before {
-    content: $kentikons-pie;
-  }
-}
-.kentikons-stacked-area {
-  &:before {
-    content: $kentikons-stacked-area;
-  }
-}
-.kentikons-donut {
-  &:before {
-    content: $kentikons-donut;
-  }
-}
-.kentikons-uniE6D2 {
-  &:before {
-    content: $kentikons-uniE6D2;
-  }
-}
-.kentikons-uniE6D3 {
-  &:before {
-    content: $kentikons-uniE6D3;
-  }
-}
-.kentikons-uniE6D4 {
-  &:before {
-    content: $kentikons-uniE6D4;
-  }
-}
-.kentikons-uniE6F3 {
-  &:before {
-    content: $kentikons-uniE6F3;
-  }
-}
-.kentikons-uniE6F4 {
-  &:before {
-    content: $kentikons-uniE6F4;
-  }
-}
-.kentikons-uniE70C {
-  &:before {
-    content: $kentikons-uniE70C;
-  }
-}
-.kentikons-line {
-  &:before {
-    content: $kentikons-line;
-  }
-}
-.kentikons-uniE71C {
-  &:before {
-    content: $kentikons-uniE71C;
-  }
-}
-.kentikons-stacked-bar {
-  &:before {
-    content: $kentikons-stacked-bar;
-  }
-}
-.kentikons-line-bars {
-  &:before {
-    content: $kentikons-line-bars;
-  }
-}
-.kentikons-uniE736 {
-  &:before {
-    content: $kentikons-uniE736;
-  }
-}
-.kentikons-uniE738 {
-  &:before {
-    content: $kentikons-uniE738;
-  }
-}
-.kentikons-scatter {
-  &:before {
-    content: $kentikons-scatter;
-  }
-}
-.kentikons-scatter-plot {
-  &:before {
-    content: $kentikons-scatter-plot;
-  }
-}
-.kentikons-dev_host {
-  &:before {
-    content: $kentikons-dev_host;
-  }
-}
-.kentikons-dev_port {
-  &:before {
-    content: $kentikons-dev_port;
-  }
-}
-.kentikons-dev_router {
-  &:before {
-    content: $kentikons-dev_router;
-  }
-}
-.kentikons-dev_switch {
-  &:before {
-    content: $kentikons-dev_switch;
-  }
-}
-.kentikons-icon_error {
-  &:before {
-    content: $kentikons-icon_error;
-  }
-}
-.kentikons-icon_ok {
-  &:before {
-    content: $kentikons-icon_ok;
-  }
-}
-.kentikons-icon_warning {
-  &:before {
-    content: $kentikons-icon_warning;
-  }
-}
+$kentikons-dev_nprobe_dns: "\e908";
+$kentikons-sankey: "\e907";
+$kentikons-intersection: "\e608";
+$kentikons-flow-dots: "\e60f";
+$kentikons-flow-random: "\e611";
+$kentikons-dot-plot: "\e612";
+$kentikons-area-plot: "\e614";
+$kentikons-comparison: "\e637";
+$kentikons-table: "\e667";
+$kentikons-dot-corner: "\e66d";
+$kentikons-trend: "\e67e";
+$kentikons-pie: "\e684";
+$kentikons-stacked-area: "\e6cd";
+$kentikons-donut: "\e6ce";
+$kentikons-uniE6D2: "\e6d2";
+$kentikons-flow-center: "\e6d3";
+$kentikons-dots-triangle: "\e6d4";
+$kentikons-matrix: "\e6f3";
+$kentikons-gant: "\e6f4";
+$kentikons-vertical-bar: "\e70c";
+$kentikons-line: "\e70f";
+$kentikons-dummy-bars: "\e71c";
+$kentikons-stacked-bar: "\e722";
+$kentikons-line-bars: "\e727";
+$kentikons-flow-enter: "\e736";
+$kentikons-tables: "\e738";
+$kentikons-scatter: "\e73e";
+$kentikons-scatter-plot: "\e758";
+$kentikons-dev_host: "\e900";
+$kentikons-dev_port: "\e901";
+$kentikons-dev_router: "\e902";
+$kentikons-dev_switch: "\e903";
+$kentikons-icon_error: "\e904";
+$kentikons-icon_ok: "\e905";
+$kentikons-icon_warning: "\e906";
 
