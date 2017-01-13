@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'kentikons';
   src:
-    url('fonts/kentikons.ttf?x9n4sz') format('truetype'),
-    url('fonts/kentikons.woff?x9n4sz') format('woff'),
-    url('fonts/kentikons.svg?x9n4sz#kentikons') format('svg');
+    url('fonts/kentikons.ttf?xhr580') format('truetype'),
+    url('fonts/kentikons.woff?xhr580') format('woff'),
+    url('fonts/kentikons.svg?xhr580#kentikons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kentikons-kentik-logo:before {
+  content: "\e904";
+}
 .kentikons-dev_nprobe_dns:before {
   content: "\e908";
 }
@@ -118,14 +121,5 @@
 }
 .kentikons-dev_switch:before {
   content: "\e903";
-}
-.kentikons-icon_error:before {
-  content: "\e904";
-}
-.kentikons-icon_ok:before {
-  content: "\e905";
-}
-.kentikons-icon_warning:before {
-  content: "\e906";
 }
 
