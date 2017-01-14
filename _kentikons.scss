@@ -25,6 +25,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kentikons-kentik-logo {
+  &:before {
+    content: $kentikons-kentik-logo;
+  }
+}
 .kentikons-dev_nprobe_dns {
   &:before {
     content: $kentikons-dev_nprobe_dns;
