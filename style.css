@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'kentikons';
   src:
-    url('fonts/kentikons.ttf?xhr580') format('truetype'),
-    url('fonts/kentikons.woff?xhr580') format('woff'),
-    url('fonts/kentikons.svg?xhr580#kentikons') format('svg');
+    url('fonts/kentikons.ttf?n0b5lp') format('truetype'),
+    url('fonts/kentikons.woff?n0b5lp') format('woff'),
+    url('fonts/kentikons.svg?n0b5lp#kentikons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,6 +23,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kentikons-json:before {
+  content: "\e905";
+}
 .kentikons-kentik-logo:before {
   content: "\e904";
 }
