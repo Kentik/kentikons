@@ -23,10 +23,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.kentikons-paperplane:before {
+.kentikons-paper-plane:before {
   content: "\e906";
 }
-.kentikons-pager_duty:before {
+.kentikons-pager-duty:before {
   content: "\e909";
 }
 .kentikons-json:before {
