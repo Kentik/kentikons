@@ -3,9 +3,9 @@
 @font-face {
   font-family: 'kentikons';
   src:
-  url('#{$icomoon-font-path}/kentikons.ttf?n0b5lp') format('truetype'),
-  url('#{$icomoon-font-path}/kentikons.woff?n0b5lp') format('woff'),
-  url('#{$icomoon-font-path}/kentikons.svg?n0b5lp#kentikons') format('svg');
+  url('#{$icomoon-font-path}/kentikons.ttf?zg18jm') format('truetype'),
+  url('#{$icomoon-font-path}/kentikons.woff?zg18jm') format('woff'),
+  url('#{$icomoon-font-path}/kentikons.svg?zg18jm#kentikons') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,6 +25,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.kentikons-paperplane {
+  &:before {
+    content: $kentikons-paperplane;
+  }
+}
+.kentikons-pager_duty {
+  &:before {
+    content: $kentikons-pager_duty;
+  }
+}
 .kentikons-json {
   &:before {
     content: $kentikons-json;
