@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kentik/kentikons.git"
+    "url": "git+https://github.com/kentik/kentikons.git"
   },
   "keywords": [
     "icon",
@@ -18,7 +18,7 @@
   "author": "Kentik",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kentik/kentikons/issues"
+    "url": "https://github.com/kentik/kentikons/issues"
   },
-  "homepage": "https://github.com/Kentik/kentikons#readme"
+  "homepage": "https://github.com/kentik/kentikons#readme"
 }
